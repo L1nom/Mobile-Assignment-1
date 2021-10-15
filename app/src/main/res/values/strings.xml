@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Amortization Calculator</string>
+    <string name="mortgage_principal">Mortgage Principal</string>
+    <string name="select_your_interest_rate">Select your Interest Rate</string>
+    <string name="select_your_term">Select your Term (in Years)</string>
+    <string name="calculate">Calculate</string>
+    <string name="raw_number_value">Raw number value</string>
+    <string name="welcome_to_the_emi_calculator">Welcome to the EMI Calculator</string>
+    <string name="enter_your_principal_and_select_the_interest_rate_and_term_of_loan_to_see_your_monthly_installments">Enter your principal and select the interest rate and term of loan to see your monthly installments</string>
+    <string-array name="rate_values">
+        <item>Three Year Fixed Rate Mortgage 2.24%</item>
+        <item>Five Year Fixed Rate Mortgage 2.29%</item>\
+        <item>Six Month Convertible 3.04%</item>
+        <item>One Year Closed 2.79%</item>
+        <item>One Year Open 4.5%</item>
+        <item>Two Year Closed 2.94%</item>
+        <item>Three Year Closed 3.49%</item>
+        <item>Four Year Closed 3.74%</item>
+        <item>Five Year Closed 4.59%</item>
+        <item>Five Year Open Variable 1.55%</item>
+        <item>Five Year Closed Variable 3.6%</item>
+        <item>Six Year Closed 5.24%</item>
+        <item>Seven Year Closed 5.35%</item>
+        <item>Ten Year Closed 5.6%</item>
+    </string-array>
+    <string-array name="period_values">
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+</resources>
