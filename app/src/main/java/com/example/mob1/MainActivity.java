@@ -13,13 +13,13 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity {
-    Button calculationBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        create spinne objects, set spinner values to our strings array created in stings.xml
+//        create spinner objects, set spinner values to our strings array created in stings.xml
         Spinner interest_spinner = findViewById(R.id.interest_spinner);
         ArrayAdapter<CharSequence> interest_adapter = ArrayAdapter.createFromResource(this, R.array.rate_values, android.R.layout.simple_spinner_item);
         interest_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         EditText principal = (EditText) findViewById(R.id.principal_value);
 
 //        use button to fetch input values
+        Button calculationBtn;
         calculationBtn = (Button) findViewById(R.id.calc_button);
         calculationBtn.setOnClickListener(new View.OnClickListener() {
 //            set button listener. Grab entered value and spinner values
